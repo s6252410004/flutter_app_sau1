@@ -10,6 +10,18 @@ class FouthUi extends StatefulWidget {
 class _FouthUiState extends State<FouthUi> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.pink,
+        title: Text(
+          'Forth Impact สี่',
+          style: TextStyle(
+            fontFamily: 'Kanit'
+          ),
+        ),
+        centerTitle: true,
+
+      ),
+    );
   }
 }
