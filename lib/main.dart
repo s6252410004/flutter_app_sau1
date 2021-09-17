@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_sau1/views/first_ui.dart';
 import 'package:flutter_app_sau1/views/forth_ui.dart';
+import 'package:flutter_app_sau1/views/foth_tabpage1_ui.dart';
+import 'package:flutter_app_sau1/views/foth_tabpage2_ui.dart';
+import 'package:flutter_app_sau1/views/foth_tabpage3_ui.dart';
+import 'package:flutter_app_sau1/views/foth_tabpage4_ui.dart';
+import 'package:flutter_app_sau1/views/foth_tabpage5_ui.dart';
+import 'package:flutter_app_sau1/views/foth_tabpage6_ui.dart';
 import 'package:flutter_app_sau1/views/secon_ui.dart';
 import 'package:flutter_app_sau1/views/third_page1_ui.dart';
 import 'package:flutter_app_sau1/views/third_page2_ui.dart';
@@ -12,7 +18,7 @@ void main() {
   runApp(
     MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: FouthUi(),
+    home: FouthUi()
     )
   );
 }
